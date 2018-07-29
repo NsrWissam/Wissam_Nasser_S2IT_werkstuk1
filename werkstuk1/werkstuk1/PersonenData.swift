@@ -13,9 +13,15 @@ class PersonenData: NSObject {
             
             var personen:[Persoon] = []
             
-            personen.insert(Persoon(naam: "Obama", voornaam: "Barack", foto: #imageLiteral(resourceName: "Obama"), adres: Adres(straat: "", huisnummer: 0, postcode: 0, gemeente: ""), lengtegraad: 50.0, breedtegraad: 3.0, telefoonnummer: ""),at:0)
+            personen.insert(Persoon(naam:"Obama", voornaam:"Barack", foto: #imageLiteral(resourceName: "Obama"), adres: Adres(straat: "", huisnummer: 0, postcode: 0, gemeente: ""), lengtegraad: 0, breedtegraad: 0, telefoonnummer: ""),at:0)
             
-            personen.append(Persoon(naam: "Putin", voornaam: "Vladimir", foto: #imageLiteral(resourceName: "Putin"), adres: Adres(straat: "", huisnummer: 0, postcode: 0, gemeente: ""), lengtegraad: 50.0, breedtegraad: 3.0, telefoonnummer: ""))
+            personen.append(Persoon(naam:"Putin", voornaam:"Vladimir", foto: #imageLiteral(resourceName: "Putin"), adres: Adres(straat: "", huisnummer: 0, postcode: 0, gemeente: ""), lengtegraad: 0, breedtegraad: 0, telefoonnummer: ""))
+            
+            personen.append(Persoon(naam:"Shant", voornaam:"Mirsada", foto: #imageLiteral(resourceName: "Julia"), adres: Adres(straat: "", huisnummer: 0, postcode: 0, gemeente: ""), lengtegraad: 0, breedtegraad: 0, telefoonnummer: ""))
+            
+            personen.append(Persoon(naam:"Ezzedi", voornaam:"Mordi", foto: #imageLiteral(resourceName: "Meld"), adres: Adres(straat: "", huisnummer: 0, postcode: 0, gemeente: ""), lengtegraad: 0, breedtegraad: 0, telefoonnummer: ""))
+            
+            personen.append(Persoon(naam:"Holmes", voornaam:"Tara", foto: #imageLiteral(resourceName: "Hei"), adres: Adres(straat: "", huisnummer: 0, postcode: 0, gemeente: ""), lengtegraad: 0, breedtegraad: 0, telefoonnummer: ""))
             
             return personen
         }}
