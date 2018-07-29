@@ -6,6 +6,7 @@
 //  Copyright © 2018 student. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
 class Adres: NSObject {
@@ -13,13 +14,6 @@ class Adres: NSObject {
     let huisnummer:Int
     let postcode:Int
     let gemeente:String
-    
-    override init() {
-        self.straat = ""
-        self.huisnummer = 0
-        self.postcode = 0000
-        self.gemeente = ""
-    }
     
     init(straat:String, huisnummer:Int, postcode:Int, gemeente:String) {
         self.straat = straat
