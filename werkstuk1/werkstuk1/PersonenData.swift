@@ -13,8 +13,9 @@ class PersonenData: NSObject {
             
             var personen:[Persoon] = []
             
-            personen.insert(Persoon(naam: "Wissam", voornaam: "Nasser", foto: "kenny.jpg", adres: Adres(straat: "", huisnummer: 0, postcode: 0, gemeente: "Thoricourt"), lengtegraad: 50.60757, breedtegraad: 3.944965, telefoonnummer: ""),at:0)
+            personen.insert(Persoon(naam: "Obama", voornaam: "Barack", foto: #imageLiteral(resourceName: "Obama"), adres: Adres(straat: "", huisnummer: 0, postcode: 0, gemeente: ""), lengtegraad: 50.0, breedtegraad: 3.0, telefoonnummer: ""),at:0)
             
+            personen.append(Persoon(naam: "Putin", voornaam: "Vladimir", foto: #imageLiteral(resourceName: "Putin"), adres: Adres(straat: "", huisnummer: 0, postcode: 0, gemeente: ""), lengtegraad: 50.0, breedtegraad: 3.0, telefoonnummer: ""))
             
             return personen
         }}
