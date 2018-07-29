@@ -15,6 +15,8 @@
 		3F34FBC8210E28CB00993246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F34FBC6210E28CB00993246 /* LaunchScreen.storyboard */; };
 		3F34FBD3210E28CB00993246 /* werkstuk1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34FBD2210E28CB00993246 /* werkstuk1Tests.swift */; };
 		3F34FBDE210E28CB00993246 /* werkstuk1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34FBDD210E28CB00993246 /* werkstuk1UITests.swift */; };
+		3F34FBEC210E2A8700993246 /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34FBEB210E2A8700993246 /* Persoon.swift */; };
+		3F34FBEE210E2C6400993246 /* Adres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34FBED210E2C6400993246 /* Adres.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3F34FBD9210E28CB00993246 /* werkstuk1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = werkstuk1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F34FBDD210E28CB00993246 /* werkstuk1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = werkstuk1UITests.swift; sourceTree = "<group>"; };
 		3F34FBDF210E28CB00993246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F34FBEB210E2A8700993246 /* Persoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
+		3F34FBED210E2C6400993246 /* Adres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adres.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3F34FBC4210E28CB00993246 /* Assets.xcassets */,
 				3F34FBC6210E28CB00993246 /* LaunchScreen.storyboard */,
 				3F34FBC9210E28CB00993246 /* Info.plist */,
+				3F34FBEB210E2A8700993246 /* Persoon.swift */,
+				3F34FBED210E2C6400993246 /* Adres.swift */,
 			);
 			path = werkstuk1;
 			sourceTree = "<group>";
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F34FBEE210E2C6400993246 /* Adres.swift in Sources */,
 				3F34FBC0210E28CB00993246 /* SecondViewController.swift in Sources */,
 				3F34FBBC210E28CB00993246 /* AppDelegate.swift in Sources */,
+				3F34FBEC210E2A8700993246 /* Persoon.swift in Sources */,
 				3F34FBBE210E28CB00993246 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = student.werkstuk1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,7 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = student.werkstuk1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
