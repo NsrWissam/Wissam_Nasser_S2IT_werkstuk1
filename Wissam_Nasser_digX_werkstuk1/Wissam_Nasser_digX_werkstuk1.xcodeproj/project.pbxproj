@@ -15,6 +15,7 @@
 		3F18CAB92110A94A00E3BEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F18CAB72110A94A00E3BEC7 /* LaunchScreen.storyboard */; };
 		3F18CAC12110AAEE00E3BEC7 /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18CAC02110AAEE00E3BEC7 /* Persoon.swift */; };
 		3F18CAC32110AAF800E3BEC7 /* Adres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18CAC22110AAF800E3BEC7 /* Adres.swift */; };
+		3F18CAC52110B19E00E3BEC7 /* PersonenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18CAC42110B19E00E3BEC7 /* PersonenData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3F18CABA2110A94A00E3BEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F18CAC02110AAEE00E3BEC7 /* Persoon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
 		3F18CAC22110AAF800E3BEC7 /* Adres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adres.swift; sourceTree = "<group>"; };
+		3F18CAC42110B19E00E3BEC7 /* PersonenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonenData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				3F18CAC02110AAEE00E3BEC7 /* Persoon.swift */,
 				3F18CAC22110AAF800E3BEC7 /* Adres.swift */,
 				3F18CABA2110A94A00E3BEC7 /* Info.plist */,
+				3F18CAC42110B19E00E3BEC7 /* PersonenData.swift */,
 			);
 			path = Wissam_Nasser_digX_werkstuk1;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				3F18CAC32110AAF800E3BEC7 /* Adres.swift in Sources */,
 				3F18CAB12110A94A00E3BEC7 /* SecondViewController.swift in Sources */,
 				3F18CAAD2110A94A00E3BEC7 /* AppDelegate.swift in Sources */,
+				3F18CAC52110B19E00E3BEC7 /* PersonenData.swift in Sources */,
 				3F18CAC12110AAEE00E3BEC7 /* Persoon.swift in Sources */,
 				3F18CAAF2110A94A00E3BEC7 /* FirstViewController.swift in Sources */,
 			);
@@ -291,7 +295,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "student.Wissam-Nasser-digX-werkstuk1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -305,7 +309,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "student.Wissam-Nasser-digX-werkstuk1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
