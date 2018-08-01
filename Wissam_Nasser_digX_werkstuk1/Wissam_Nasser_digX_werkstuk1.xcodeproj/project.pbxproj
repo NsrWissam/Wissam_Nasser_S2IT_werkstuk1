@@ -16,6 +16,8 @@
 		3F18CAC32110AAF800E3BEC7 /* Adres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18CAC22110AAF800E3BEC7 /* Adres.swift */; };
 		3F18CAC52110B19E00E3BEC7 /* PersonenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18CAC42110B19E00E3BEC7 /* PersonenData.swift */; };
 		3F18CAC72110D6DB00E3BEC7 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18CAC62110D6DB00E3BEC7 /* DetailController.swift */; };
+		3FF8C14B2111FB92003377C6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF8C14A2111FB92003377C6 /* CoreLocation.framework */; };
+		3FF8C14D2111FC20003377C6 /* PinpointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8C14C2111FC20003377C6 /* PinpointViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		3F18CAC22110AAF800E3BEC7 /* Adres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adres.swift; sourceTree = "<group>"; };
 		3F18CAC42110B19E00E3BEC7 /* PersonenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonenData.swift; sourceTree = "<group>"; };
 		3F18CAC62110D6DB00E3BEC7 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		3FF8C14A2111FB92003377C6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3FF8C14C2111FC20003377C6 /* PinpointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinpointViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF8C14B2111FB92003377C6 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +53,7 @@
 			children = (
 				3F18CAAB2110A94A00E3BEC7 /* Wissam_Nasser_digX_werkstuk1 */,
 				3F18CAAA2110A94A00E3BEC7 /* Products */,
+				3FF8C1492111FB92003377C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,8 +78,17 @@
 				3F18CAC42110B19E00E3BEC7 /* PersonenData.swift */,
 				3F18CAAC2110A94A00E3BEC7 /* AppDelegate.swift */,
 				3F18CABA2110A94A00E3BEC7 /* Info.plist */,
+				3FF8C14C2111FC20003377C6 /* PinpointViewController.swift */,
 			);
 			path = Wissam_Nasser_digX_werkstuk1;
+			sourceTree = "<group>";
+		};
+		3FF8C1492111FB92003377C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8C14A2111FB92003377C6 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +167,7 @@
 				3F18CAC32110AAF800E3BEC7 /* Adres.swift in Sources */,
 				3F18CAC72110D6DB00E3BEC7 /* DetailController.swift in Sources */,
 				3F18CAAD2110A94A00E3BEC7 /* AppDelegate.swift in Sources */,
+				3FF8C14D2111FC20003377C6 /* PinpointViewController.swift in Sources */,
 				3F18CAC52110B19E00E3BEC7 /* PersonenData.swift in Sources */,
 				3F18CAC12110AAEE00E3BEC7 /* Persoon.swift in Sources */,
 				3F18CAAF2110A94A00E3BEC7 /* VIPTableController.swift in Sources */,

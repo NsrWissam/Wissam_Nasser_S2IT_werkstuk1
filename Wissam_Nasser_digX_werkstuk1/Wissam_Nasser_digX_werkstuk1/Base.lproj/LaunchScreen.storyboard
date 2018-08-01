@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,13 +17,61 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cropped-logo-transparant-1" translatesAutoresizingMaskIntoConstraints="NO" id="iz1-aV-YwJ">
+                                <rect key="frame" x="0.0" y="241" width="375" height="184"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Werkstuk 1 iOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yq1-YE-5Ep">
+                                <rect key="frame" x="0.0" y="69" width="375" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="Wsj-Vw-OMh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIP Locator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVT-zK-rQ3">
+                                <rect key="frame" x="0.0" y="453" width="375" height="62"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Wissam Nasser" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6XZ-RL-MNY">
+                                <rect key="frame" x="0.0" y="123" width="375" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="afH-w2-UPp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yq1-YE-5Ep" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="6Tk-QJ-DzO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SVT-zK-rQ3" secondAttribute="bottom" constant="152" id="7ux-lc-6dB"/>
+                            <constraint firstItem="yq1-YE-5Ep" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="49" id="9SK-G4-TM7"/>
+                            <constraint firstAttribute="trailing" secondItem="yq1-YE-5Ep" secondAttribute="trailing" id="CX1-lv-CgO"/>
+                            <constraint firstItem="SVT-zK-rQ3" firstAttribute="top" secondItem="iz1-aV-YwJ" secondAttribute="bottom" constant="28" id="GQM-cb-HJH"/>
+                            <constraint firstItem="6XZ-RL-MNY" firstAttribute="trailing" secondItem="iz1-aV-YwJ" secondAttribute="trailing" id="TpM-bC-bkT"/>
+                            <constraint firstItem="iz1-aV-YwJ" firstAttribute="leading" secondItem="SVT-zK-rQ3" secondAttribute="leading" id="UeV-e1-cUI"/>
+                            <constraint firstItem="iz1-aV-YwJ" firstAttribute="top" secondItem="6XZ-RL-MNY" secondAttribute="bottom" constant="81" id="XBQ-XH-7yS"/>
+                            <constraint firstItem="6XZ-RL-MNY" firstAttribute="top" secondItem="yq1-YE-5Ep" secondAttribute="bottom" constant="8" symbolic="YES" id="aUQ-3U-i9a"/>
+                            <constraint firstItem="iz1-aV-YwJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="cAB-zL-O11"/>
+                            <constraint firstItem="6XZ-RL-MNY" firstAttribute="leading" secondItem="iz1-aV-YwJ" secondAttribute="leading" id="fiG-JY-PFz"/>
+                            <constraint firstItem="yq1-YE-5Ep" firstAttribute="trailing" secondItem="6XZ-RL-MNY" secondAttribute="trailing" id="jHb-tS-L1N"/>
+                            <constraint firstItem="iz1-aV-YwJ" firstAttribute="trailing" secondItem="SVT-zK-rQ3" secondAttribute="trailing" id="jc3-b5-Qbd"/>
+                            <constraint firstItem="yq1-YE-5Ep" firstAttribute="leading" secondItem="6XZ-RL-MNY" secondAttribute="leading" id="pIL-t7-BWB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cropped-logo-transparant-1" width="250" height="250"/>
+    </resources>
 </document>
