@@ -69,9 +69,9 @@
 				3F18CAB52110A94A00E3BEC7 /* Assets.xcassets */,
 				3F18CAC02110AAEE00E3BEC7 /* Persoon.swift */,
 				3F18CAC22110AAF800E3BEC7 /* Adres.swift */,
+				3F18CAC42110B19E00E3BEC7 /* PersonenData.swift */,
 				3F18CAAC2110A94A00E3BEC7 /* AppDelegate.swift */,
 				3F18CABA2110A94A00E3BEC7 /* Info.plist */,
-				3F18CAC42110B19E00E3BEC7 /* PersonenData.swift */,
 			);
 			path = Wissam_Nasser_digX_werkstuk1;
 			sourceTree = "<group>";
