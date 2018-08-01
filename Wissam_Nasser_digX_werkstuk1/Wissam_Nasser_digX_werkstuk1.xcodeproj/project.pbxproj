@@ -18,6 +18,8 @@
 		3F18CAC72110D6DB00E3BEC7 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18CAC62110D6DB00E3BEC7 /* DetailController.swift */; };
 		3FF8C14B2111FB92003377C6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF8C14A2111FB92003377C6 /* CoreLocation.framework */; };
 		3FF8C14D2111FC20003377C6 /* PinpointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8C14C2111FC20003377C6 /* PinpointViewController.swift */; };
+		3FF8C14E21121A52003377C6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F18CABA2110A94A00E3BEC7 /* Info.plist */; };
+		3FF8C15021121C00003377C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF8C14F21121C00003377C6 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,7 @@
 		3F18CAC62110D6DB00E3BEC7 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		3FF8C14A2111FB92003377C6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3FF8C14C2111FC20003377C6 /* PinpointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinpointViewController.swift; sourceTree = "<group>"; };
+		3FF8C14F21121C00003377C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF8C15021121C00003377C6 /* MapKit.framework in Frameworks */,
 				3FF8C14B2111FB92003377C6 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +90,7 @@
 		3FF8C1492111FB92003377C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FF8C14F21121C00003377C6 /* MapKit.framework */,
 				3FF8C14A2111FB92003377C6 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
@@ -151,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF8C14E21121A52003377C6 /* Info.plist in Resources */,
 				3F18CAB92110A94A00E3BEC7 /* LaunchScreen.storyboard in Resources */,
 				3F18CAB62110A94A00E3BEC7 /* Assets.xcassets in Resources */,
 				3F18CAB42110A94A00E3BEC7 /* Main.storyboard in Resources */,
